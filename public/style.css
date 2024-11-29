@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  #checklist {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .rule {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .rule.passed {
+    color: green;
+  }
+  .rule.failed {
+    color: red;
+  }
+  
